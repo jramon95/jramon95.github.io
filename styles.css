@@ -1,0 +1,35 @@
+body{
+	background-image: url(https://n6-img-fp.akamaized.net/vector-gratis/textura-de-papel-arrugado_1100-12.jpg?size=338c&ext=jpg);
+}
+
+h1{
+	font-family: fantasy;
+	font-size: 2em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 500px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}
+.col{
+	border: 1.5px solid black;
+}
+
+.container{
+	align-content: center;
+}
+
+li{
+	list-style: none;
+	/*display: inline-block;*/
+	text-align: center;
+	color: white;
+}
+
+img{
+	transition: 1s;
+}
+img:hover{
+	transform: scale(1.1);
+}
